@@ -1,6 +1,255 @@
 <!doctype html>
-<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>FloorStamp</title>
-<style>body{font:16px/1.6 -apple-system,system-ui,sans-serif;max-width:720px;margin:40px auto;padding:0 16px;color:#222;background:#fff}</style></head>
-<body><h1>FloorStamp</h1><p>LiDAR ile ev taraması yapıp ölçülü kat planı, PDF ve 3D model çıkaran iPhone ve iPad uygulaması.</p>
-<p><a href="gizlilik.html">Gizlilik Politikası</a> · <a href="mailto:agimnat@gmail.com">İletişim</a></p></body></html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>FloorStamp — LiDAR ile Ölçülü Kat Planı, PDF ve 3D Model</title>
+  <meta name="description" content="iPhone ve iPad'in LiDAR tarayıcısıyla dakikalar içinde ölçülü 2D kat planı, 3D model ve ilana hazır PDF çıkaran Türkçe uygulama. Hesap yok, bulut yok.">
+  <link rel="icon" type="image/png" href="gorseller/ikon.png">
+  <link rel="apple-touch-icon" href="gorseller/ikon.png">
+  <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#">
+        <img class="brand-mark" src="gorseller/ikon.png" width="36" height="36" alt="FloorStamp simgesi">
+        <span>FloorStamp</span>
+      </a>
+      <nav class="nav" aria-label="Ana menü">
+        <a href="#ozellikler">Özellikler</a>
+        <a href="#nasil">Nasıl Çalışır</a>
+        <a href="#ekranlar">Ekranlar</a>
+        <a href="gizlilik.html">Gizlilik</a>
+        <a href="#testflight" class="nav-cta">TestFlight ile Dene</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="pill">
+            <span class="pill-dot" aria-hidden="true"></span>
+            iPhone ve iPad için LiDAR Kat Planı
+          </div>
+          <h1>Evi tara, ölçülü kat planını anında al.</h1>
+          <p class="hero-lead">
+            FloorStamp; iPhone Pro ve iPad Pro'nun LiDAR tarayıcısıyla dakikalar içinde temiz 2D kat planı, 3D model ve ilana hazır A4 PDF çıktısı üretir. Hesap açma yok, buluta yükleme yok — tüm veriler cihazınızda kalır.
+          </p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="#testflight">TestFlight ile Dene</a>
+            <a class="btn btn-secondary" href="#ekranlar">Ekran Görüntülerini Gör</a>
+          </div>
+          <div class="hero-meta">
+            <span>✓ iOS 18 ve iPadOS 18+</span>
+            <span>✓ %100 cihazda ve çevrimdışı</span>
+            <span>✓ Türkçe arayüz ve birimler</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-frame">
+            <img src="gorseller/ekran-plan.png" alt="FloorStamp 2D kat planı ekran görüntüsü">
+          </div>
+          <div class="hero-badge">
+            <strong>Gerçek tarama · 2+1 Daire</strong>
+            Net ≈ 73,6 m² · Süpürülebilir ≈ 71,6 m²
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Özellikler -->
+    <section id="ozellikler" class="band band-white">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Özellikler</p>
+          <h2>Emlak ve mimari sunum için gereken her şey tek uygulamada</h2>
+          <p>Gerçek daire taramalarıyla sahada test edildi; karmaşık CAD araçları olmadan profesyonel sonuç verir.</p>
+        </div>
+
+        <div class="features">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7V5a2 2 0 0 1 2-2h2"/><path d="M17 3h2a2 2 0 0 1 2 2v2"/><path d="M21 17v2a2 2 0 0 1-2 2h-2"/><path d="M7 21H5a2 2 0 0 1-2-2v-2"/><rect x="7" y="7" width="10" height="10" rx="1"/></svg>
+            </div>
+            <h3>LiDAR ile Hızlı Tarama</h3>
+            <p>Evi tek seferde ya da oda oda tarayın. Duvarlar, odalar, kapı ve pencereler otomatik hizalanıp 2D kat planına dönüşür.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+            </div>
+            <h3>Bağımsız Elle Düzenleme</h3>
+            <p>Her duvar bağımsızdır: komşu duvarları bozmadan uzatın, taşıyın, kalınlık verin; kapı, pencere ve eşyaları sürükleyip bırakın.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 9 4.5v9L12 21l-9-4.5v-9L12 3Z"/><path d="m12 12 9-4.5"/><path d="M12 12v9"/><path d="M12 12 3 7.5"/></svg>
+            </div>
+            <h3>Düzenlenmiş Plandan 3D ve AR</h3>
+            <p>2D planda yaptığınız tüm düzeltmeler anında 3D modele yansır. Modeli döndürün, USDZ olarak paylaşın veya AR'da inceleyin.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
+            </div>
+            <h3>İlana Hazır A4 PDF ve PNG</h3>
+            <p>Oda listesi, pusula yönü, cephe, kat bilgisi ve ofis logonuzla tek dokunuşta yatay A4 PDF ya da yüksek çözünürlüklü PNG üretin.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+            </div>
+            <h3>Şeffaf Alan Kutusu</h3>
+            <p>Net m² (balkon dahil), süpürülebilir alan ve elle girilen proje m² ayrı satırlarda, yaklaşık (≈) işareti ve yasal bilgilendirmeyle sunulur.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            </div>
+            <h3>%100 Cihazda ve Gizli</h3>
+            <p>Üyelik, reklam ve izleme yoktur. Tarama sırasında görüntü kaydedilmez; projeleriniz yalnızca kendi cihazınızda saklanır.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Nasıl çalışır -->
+    <section id="nasil" class="band">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Nasıl Çalışır</p>
+          <h2>Üç adımda taramadan ilana hazır kat planına</h2>
+        </div>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step-num">1</div>
+            <h3>Odaları Tara</h3>
+            <p>iPhone Pro veya iPad Pro ile odalarda gezinin; LiDAR duvarları, kapıları, pencereleri ve eşyaları anında ölçsün.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">2</div>
+            <h3>İstersen Düzenle</h3>
+            <p>Oda adlarını seçin, balkon ekleyin, sürgü kapı veya eşya yerleştirin; pusula yönünü ve proje m² bilgisini ekleyin.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">3</div>
+            <h3>PDF, PNG ve 3D Paylaş</h3>
+            <p>WhatsApp, Mail, AirDrop veya Dosyalar üzerinden ölçülü A4 kat planını, 3D modeli ya da ilan özet metnini paylaşın.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ekran görüntüleri -->
+    <section id="ekranlar" class="band band-white">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Ekran Görüntüleri</p>
+          <h2>Gerçek daire taramasından alınan ekranlar</h2>
+          <p>Aşağıdaki tüm plan, 3D model ve PDF çıktıları gerçek bir 2+1 dairenin LiDAR taramasından üretilmiştir.</p>
+        </div>
+
+        <div class="gallery">
+          <figure class="shot-card">
+            <div class="shot-img-wrap">
+              <img src="gorseller/ekran-plan.png" alt="Ölçülü 2D kat planı ekranı">
+            </div>
+            <figcaption class="shot-body">
+              <h3>2D Ölçülü Kat Planı</h3>
+              <p>Oda adları, duvar ölçüleri, pusula gülü, balkon ve alt alan kutusu otomatik yerleşir.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="shot-card">
+            <div class="shot-img-wrap">
+              <img src="gorseller/ekran-duzenleme.png" alt="Elle plan düzenleme ekranı">
+            </div>
+            <figcaption class="shot-body">
+              <h3>Bağımsız Elle Düzenleme</h3>
+              <p>Duvar, pencere, kapı, sürgü kapı, açıklık ve eşyaları dokunup sürükleyerek düzenleyin.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="shot-card">
+            <div class="shot-img-wrap">
+              <img src="gorseller/ekran-3d.png" alt="Düzenlenmiş plandan 3D model ekranı">
+            </div>
+            <figcaption class="shot-body">
+              <h3>3D Model ve AR</h3>
+              <p>Düzenlenmiş plandan anında üretilen 3D görünüm ve tek dokunuşla AR'da inceleme.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="shot-card wide">
+            <div class="shot-img-wrap">
+              <img src="gorseller/ekran-pdf.png" alt="İlana hazır A4 PDF kat planı çıktısı">
+            </div>
+            <figcaption class="shot-body">
+              <h3>İlana Hazır A4 PDF Çıktısı</h3>
+              <p>Oda listesi, cepheler, kat ve bina yaşı, alan kutusu, ofis logosu ve yasal uyarı tek sayfada.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="shot-card">
+            <div class="shot-img-wrap">
+              <img src="gorseller/ekran-alan.png" alt="Alan kutusu ve ilan bilgileri ekranı">
+            </div>
+            <figcaption class="shot-body">
+              <h3>Alan Kutusu ve İlan Özeti</h3>
+              <p>Proje m², net m² ve süpürülebilir alan değerlerini tek dokunuşla ilan metni olarak kopyalayın.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- TestFlight -->
+    <section id="testflight" class="band">
+      <div class="wrap">
+        <div class="tf-box">
+          <div>
+            <p class="eyebrow">Erken Erişim</p>
+            <h2>TestFlight ile dene</h2>
+            <p>
+              FloorStamp şu anda Apple TestFlight üzerinden test aşamasındadır. Uygulamayı kendi iPhone veya iPad'inizde denemek ve geri bildirim paylaşmak için test daveti isteyebilirsiniz.
+            </p>
+            <div class="btn-row">
+              <a class="btn btn-primary" href="mailto:agimnat@gmail.com?subject=FloorStamp%20TestFlight%20Daveti&body=Merhaba%2C%0A%0AFloorStamp%20TestFlight%20s%C3%BCr%C3%BCm%C3%BCn%C3%BC%20denemek%20istiyorum.%0ACihaz%C4%B1m%3A%20">TestFlight Daveti İste</a>
+              <a class="btn btn-secondary" href="gizlilik.html">Gizlilik Politikası</a>
+            </div>
+          </div>
+
+          <ul class="tf-specs" aria-label="Sistem gereksinimleri">
+            <li><strong>Platform:</strong> iPhone ve iPad</li>
+            <li><strong>Sürüm:</strong> iOS 18 / iPadOS 18 ve üzeri</li>
+            <li><strong>Tarama:</strong> LiDAR sensörlü iPhone Pro / iPad Pro</li>
+            <li><strong>Gizlilik:</strong> Hesap yok, bulut yok, izleme yok</li>
+            <li><strong>İletişim:</strong> <a href="mailto:agimnat@gmail.com" style="color:#ffc875">agimnat@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <span>© 2026 FloorStamp — LiDAR Kat Planı Uygulaması</span>
+      <div class="footer-links">
+        <a href="gizlilik.html">Gizlilik Politikası</a>
+        <a href="mailto:agimnat@gmail.com">İletişim (agimnat@gmail.com)</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
